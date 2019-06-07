@@ -1,0 +1,23 @@
+{
+  "name": "angularjs-instascan",
+  "description": "AngularJS module for Instascan",
+  "main": "dist/angular-instascan.js",
+  "authors": [
+    "Julian Andrade <julian@ndrade.com.br>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "instascan",
+    "qrcode"
+  ],
+  "homepage": "https://github.com/julianchaos/angular-instascan",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
