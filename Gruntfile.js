@@ -3,12 +3,12 @@ module.exports = function(grunt){
 		browserify: {
 			demo: {
 				files: {
-					'demo/lib/app.js': ['app/app.js', 'app/angular-instascan.js'],
+					'demo/lib/app.js': ['src/app.js', 'src/angular-instascan.js'],
 				}
 			},
 			build: {
 				files: {
-					'dist/angular-instascan.js': ['app/angular-instascan.js']
+					'dist/angular-instascan.js': ['src/angular-instascan.js']
 				}
 			}
 		},
@@ -16,8 +16,8 @@ module.exports = function(grunt){
 		watch: {
 			demo: {
 				files: [
-					'app/app.js',
-					'app/angular-instascan.js'
+					'src/app.js',
+					'src/angular-instascan.js'
 				],
 				tasks: [
 					'browserify:app'
