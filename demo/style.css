@@ -1,0 +1,12 @@
+body > ng-view > div {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+#reader {
+    left: 0;
+}
+#response {
+    right: 0;
+}
