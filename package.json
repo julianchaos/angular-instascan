@@ -10,7 +10,7 @@
 	"license": "ISC",
 	"dependencies": {},
 	"devDependencies": {
-		"angular": "^1.7.8",
+		"angular": "^1.7.9",
 		"angular-route": "^1.7.8",
 		"browserify": "^16.2.3",
 		"grunt": "^1.0.4",
